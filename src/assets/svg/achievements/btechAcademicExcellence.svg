@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient>
+<linearGradient id="cap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B3A55"/><stop offset="1" stop-color="#0F172A"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+</defs>
+
+<rect width="600" height="520" fill="url(#bg)"/>
+<circle cx="300" cy="260" r="215" fill="#fff" opacity="0.12"/>
+<g>
+<path d="M205 225 V318 C205 352 252 372 300 372 C348 372 395 352 395 318 V225 L300 262 Z" fill="url(#cap)"/>
+<path d="M95 188 L300 100 L505 188 L300 276 Z" fill="#1E293B"/>
+<path d="M95 188 L300 100 L505 188 L300 276 Z" fill="url(#cap)" stroke="#475569" stroke-width="6" stroke-linejoin="round"/>
+<path d="M300 100 L505 188 L300 188 Z" fill="#fff" opacity="0.08"/>
+<circle cx="300" cy="188" r="15" fill="url(#gold)"/>
+<path d="M300 188 L468 224 V330" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M468 322 L450 366 H486 Z" fill="url(#gold)"/>
+<rect x="454" y="322" width="28" height="22" rx="8" fill="#F59E0B"/>
+</g>
+<g transform="translate(0 4)">
+<rect x="120" y="402" width="360" height="62" rx="18" fill="#fff"/>
+<rect x="120" y="402" width="360" height="62" rx="18" fill="none" stroke="#DBEAFE" stroke-width="6"/>
+<rect x="156" y="424" width="170" height="14" rx="7" fill="#93C5FD"/><rect x="156" y="444" width="110" height="10" rx="5" fill="#BFDBFE"/>
+<circle cx="416" cy="433" r="22" fill="#EF4444"/><path d="M404 450 L398 482 L416 472 L434 482 L428 450 Z" fill="#DC2626"/><circle cx="416" cy="433" r="12" fill="#FCA5A5"/>
+</g>
+<path d="M88 80 Q94.6 103.4 118 110 Q94.6 116.6 88 140 Q81.4 116.6 58 110 Q81.4 103.4 88 80 Z" fill="#fff" opacity="0.9"/><path d="M525 73 Q529.84 90.16 547 95 Q529.84 99.84 525 117 Q520.16 99.84 503 95 Q520.16 90.16 525 73 Z" fill="#FDE68A"/>
+
+</svg>

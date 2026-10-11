@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#355872"/><stop offset="1" stop-color="#14283A"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="0.5" stop-color="#FBBF24"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+<radialGradient id="glow" cx="50%" cy="45%" r="50%"><stop offset="0" stop-color="#FDE68A" stop-opacity="0.55"/><stop offset="1" stop-color="#FDE68A" stop-opacity="0"/></radialGradient>
+</defs>
+
+<rect width="600" height="520" fill="url(#bg)"/>
+<circle cx="300" cy="235" r="230" fill="url(#glow)"/>
+<path d="M170 140 C90 140 80 250 190 280" fill="none" stroke="url(#gold)" stroke-width="30" stroke-linecap="round"/>
+<path d="M430 140 C510 140 520 250 410 280" fill="none" stroke="url(#gold)" stroke-width="30" stroke-linecap="round"/>
+<path d="M180 85 H420 V190 C420 262 366 312 300 312 C234 312 180 262 180 190 Z" fill="url(#gold)"/>
+<path d="M205 100 H250 V190 C250 245 265 285 285 304 C235 292 205 250 205 190 Z" fill="#fff" opacity="0.3"/>
+<path d="M300 138 Q315.6 174.4 352 190 Q315.6 205.6 300 242 Q284.4 205.6 248 190 Q284.4 174.4 300 138 Z" fill="#fff"/>
+<rect x="272" y="306" width="56" height="66" fill="url(#gold)"/>
+<path d="M214 372 H386 L408 424 H192 Z" fill="url(#gold)"/>
+<rect x="170" y="420" width="260" height="42" rx="12" fill="#B45309"/>
+<rect x="170" y="420" width="260" height="14" rx="7" fill="#F59E0B"/>
+<path d="M105 61 Q112.48 87.52 139 95 Q112.48 102.48 105 129 Q97.52 102.48 71 95 Q97.52 87.52 105 61 Z" fill="#FDE68A"/><path d="M500 54 Q505.72 74.28 526 80 Q505.72 85.72 500 106 Q494.28 85.72 474 80 Q494.28 74.28 500 54 Z" fill="#fff" opacity="0.9"/><path d="M520 350 Q526.6 373.4 550 380 Q526.6 386.6 520 410 Q513.4 386.6 490 380 Q513.4 373.4 520 350 Z" fill="#FDE68A"/><path d="M78 338 Q82.84 355.16 100 360 Q82.84 364.84 78 382 Q73.16 364.84 56 360 Q73.16 355.16 78 338 Z" fill="#fff" opacity="0.85"/>
+
+</svg>
